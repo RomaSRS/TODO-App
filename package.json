@@ -13,6 +13,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-reveal": "^1.2.2",
     "react-scripts": "3.4.3"
   },
   "scripts": {
@@ -22,8 +23,7 @@
     "lint": "eslint --debug src/",
     "lint:write": "eslint --debug src/ --fix",
     "prettier": "prettier --write src/**/*.js",
-    "eject": "react-scripts eject",
-    "push": "git push origin master"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
