@@ -32,8 +32,23 @@ export const NewTaskForm = ({ isAnyTaskOnEdit, onCreateTask }) => {
 				onKeyDown={onKeyDownHandler}
 				disabled={isAnyTaskOnEdit}
 			/>
-			<input className="new-todo-form__timer" disabled placeholder="Min" />
-			<input className="new-todo-form__timer" disabled placeholder="Sec" />
+			<input
+				type="text"
+				className="new-todo-form__timer"
+				placeholder="Min"
+				// ref={inputReference}
+				// value={inputValue}
+				// onChange={onChangeHandler}
+				onKeyDown={onKeyDownHandler}
+			/>
+			<input
+				className="new-todo-form__timer"
+				placeholder="Min"
+				// ref={inputReference}
+				// value={inputValue}
+				// onChange={onChangeHandler}
+				onKeyDown={onKeyDownHandler}
+			/>
 		</form>
 	);
 };
